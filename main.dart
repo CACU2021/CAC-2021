@@ -157,7 +157,7 @@ class _MyHomePageState extends State<MyHomePage> {
               TextButton(
                 child: const Text('CLEAR'),
                 onPressed: () {
-                  fieldControl.text = currentSaved;
+                  fieldControl.text = "";
                 },
                 style: TextButton.styleFrom(
                   padding: const EdgeInsets.all(16.0),
